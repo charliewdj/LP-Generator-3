@@ -1,0 +1,100 @@
+/* Styles for the popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.popup input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: black;
+    /* Set text color to black */
+}
+
+.popup input[type="submit"] {
+    background-color: #4CAF50;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Style for all buttons */
+button {
+    background-color: #4CAF50;
+    /* Green background */
+    border: none;
+    /* No border */
+    color: white;
+    /* White text */
+    padding: 15px 32px;
+    /* Padding */
+    text-align: center;
+    /* Center text */
+    text-decoration: none;
+    /* No underline */
+    display: inline-block;
+    /* Display as block element */
+    font-size: 16px;
+    /* Font size */
+    margin: 4px 2px;
+    /* Margin */
+    transition-duration: 0.4s;
+    /* Transition duration */
+    cursor: pointer;
+    /* Cursor on hover */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #45a049;
+    /* Darker green */
+}
+
+/* Active effect */
+button:active {
+    background-color: #3e8e41;
+    /* Even darker green */
+}
+
+/* Disable button outline */
+button:focus {
+    outline: none;
+}
+
+.customInput,
+.customButton {
+    margin-bottom: 40px;
+}
+
+
+.close-button {
+float: right;
+cursor: pointer;
+}
+
+.center-copyright {
+    text-align: center;
+}
+
+/* Style for the X button */
+/* .close-btn {
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  } */
